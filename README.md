@@ -1,5 +1,3 @@
-<img width="377" height="810" alt="Captura de tela 2025-11-27 213214" src="https://github.com/user-attachments/assets/4eac47b7-4f8b-4ef3-b129-db256373ea5f" />
-
 # App de Previsão do Tempo  
 Aplicativo móvel simples desenvolvido em **React Native (Expo)** para consultar a previsão do tempo de qualquer cidade utilizando a API gratuita **Open-Meteo**.
 
@@ -36,5 +34,7 @@ Este projeto foi criado como atividade prática para demonstrar:
 ## API Utilizadas
 
 ### GeoCoding API
-Converte o nome da cidade:
+
+<img width="377" height="804" alt="Captura de tela 2025-11-27 213558" src="https://github.com/user-attachments/assets/0c145751-366d-4b5c-9c6a-4661350e84a9" />
+
 
