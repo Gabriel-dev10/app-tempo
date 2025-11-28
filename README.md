@@ -1,11 +1,40 @@
-# Sample Snack app
+<img width="377" height="810" alt="Captura de tela 2025-11-27 213214" src="https://github.com/user-attachments/assets/4eac47b7-4f8b-4ef3-b129-db256373ea5f" />
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+# App de Previsão do Tempo  
+Aplicativo móvel simples desenvolvido em **React Native (Expo)** para consultar a previsão do tempo de qualquer cidade utilizando a API gratuita **Open-Meteo**.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+Este projeto foi criado como atividade prática para demonstrar:
+- Consumo de API pública
+- Manipulação de JSON
+- Interface básica em React Native
+- Entrada de dados via TextInput
+- Renderização condicional
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+---
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## Tecnologias Utilizadas
+- **React Native (Expo Snack)**
+- **JavaScript**
+- **API Open-Meteo**
+- **API Open-Meteo Geocoding** (para converter nome da cidade em latitude/longitude)
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+---
+
+## Funcionalidades
+- Busca de cidade por nome  
+- Conversão automática para latitude/longitude  
+- Consumo da API de clima  
+- Exibição de:
+  - Temperatura atual  
+  - Descrição do clima  
+  - Velocidade do vento  
+  - Nome da cidade  
+- Interface simples e intuitiva  
+
+---
+
+## API Utilizadas
+
+### GeoCoding API
+Converte o nome da cidade:
+
